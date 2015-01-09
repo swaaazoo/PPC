@@ -3,22 +3,122 @@
 	margin: 0px;
 	padding: 0px;
 	vertical-align: top;
+	font-family: verdana;
+	font-size: 12px;
 }
 
 div.wrapper {
 	width: 970px;
-	min-height: 500px;
+	height: 800px;
 /*	background-color: grey;*/
 }
-
+.important {
+	font-weight: bold;
+}
+/*header div in 2 parts - logo and page links*/
 	div.header {
 		width: 100%;
-		height: 150px;
-		background-color: grey;
+		height: 140px;
+/*		background-color: grey;*/
 	}
-
+		div.logo {
+			height: 75px;
+			background-image: url(logo.png);
+			background-repeat: no-repeat;
+			text-align: right;
+			padding-left: 30px;
+		}
+			div.logo h1 {
+				font-size: 18px;
+				padding-top: 35px;
+				padding-right: 30px;
+			}
+		div.page-links {
+			height: 35px;
+			border-top: 1px solid black;
+		}
+			div.page-links ul {
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background-color: #C9D0D6;
+			}
+			div.page-links li {
+				display: inline;
+				padding-left: 15px;
+				padding-right: 15px;
+				border-right: 1px grey;
+				border-left: 1px grey;
+			}
+			div.page-links a {
+				color: #767676;
+			}
+			div.page-links li+li {
+			border-left: 1px solid grey;
+			}
+/*header div in 2 parts - logo and page links*/
+/*body div in 7 parts*/
 	div.body {
-		width: 100%;
+		width: 930px;
 		height: 550px;
 		background-color: black;
+		display: inline-block;
+		padding: 20px 20px;
 	}
+	div.body h1{
+		background-color: #FFC628;
+		padding: 5px 10px;
+	}
+	div.body h2{
+		padding: 15px 20px;
+	}
+	div.body p {
+		padding-left: 20px;
+		padding-right: 30px;
+		padding-bottom: 10px;
+/*		font-weight: */
+	}
+		div.building {
+			width: 295px;
+			height: 250px;
+			display: inline-block;
+			border: 4px solid white;
+			padding-top: 3px;
+			padding-left: 2px;
+			background-color: white;
+		}
+		div.about {
+			width: 600px;
+			height: 260px;
+			display: inline-block;
+			margin-left: 20px;
+			color: white;
+			background-color: #8A898F;
+		}
+		div.news {
+			width: 920px;
+			height: 50px;
+		}
+		div.automotive {
+			width: 214px;
+			height: 250px;
+			display: inline-block;
+		}
+		div.commercial {
+			width: 214px;
+			height: 250px;
+			display: inline-block;
+			margin-left: 20px;
+		}
+		div.industrial {
+			width: 214px;
+			height: 250px;
+			display: inline-block;
+			margin-left: 20px;
+		}
+		div.diesel {
+			width: 214px;
+			height: 250px;
+			display: inline-block;
+			margin-left: 20px;
+		}
