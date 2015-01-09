@@ -60,7 +60,7 @@ div.wrapper {
 /*body div in 7 parts*/
 	div.body {
 		width: 930px;
-		height: 600px;
+		height: 575px;
 		background-color: black;
 		display: inline-block;
 		padding: 20px 20px;
@@ -77,11 +77,7 @@ div.wrapper {
 		padding-right: 30px;
 		padding-bottom: 10px;
 	}
-		div.body input {
-			display: block;
-			margin-left: 120px;
-		}
-		div.building {
+/*		div.building {
 			width: 330px;
 			height: 270px;
 			display: inline-block;
@@ -89,6 +85,13 @@ div.wrapper {
 			padding-top: 3px;
 			padding-left: 2px;
 			background-color: white;
+		}*/
+		img.building {
+/*			border: 10px solid white;*/
+			background-color: white;
+			padding: 5px;
+/*			height: 268px;
+			width: 328px;*/
 		}
 		div.about {
 			width: 560px;
@@ -98,9 +101,6 @@ div.wrapper {
 			color: white;
 			background-color: #8A898F;
 		}
-			.about h1 {
-				color: black;
-			}
 		div.news {
 			width: 920px;
 			height: 20px;
@@ -114,44 +114,25 @@ div.wrapper {
 			}
 		div.automotive {
 			width: 214px;
-			height: 270px;
+			height: 250px;
 			display: inline-block;
-			background-color: white;
 		}
-			.automotive img {
-				width: 100%;
-			}
 		div.commercial {
 			width: 214px;
-			height: 270px;
+			height: 250px;
 			display: inline-block;
 			margin-left: 20px;
-			background-color: white;
 		}
-			.commercial img {
-				width: 100%;
-			}
-			.commercial p {
-				margin-bottom: 12px;
-			}
 		div.industrial {
 			width: 214px;
-			height: 270px;
+			height: 250px;
 			display: inline-block;
 			margin-left: 20px;
-			background-color: white;
 		}
-			.industrial img {
-				width: 100%;
-			}
 		div.diesel {
 			width: 214px;
-			height: 270px;
+			height: 250px;
 			display: inline-block;
 			margin-left: 20px;
-			background-color: white;
 		}
-			.diesel img {
-				width: 100%;
-			}
 		/*body div in 7 parts*/
