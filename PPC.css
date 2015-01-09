@@ -1,0 +1,24 @@
+* {
+	outline: 1px solid red;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+div.wrapper {
+	width: 970px;
+	min-height: 500px;
+/*	background-color: grey;*/
+}
+
+	div.header {
+		width: 100%;
+		height: 150px;
+		background-color: grey;
+	}
+
+	div.body {
+		width: 100%;
+		height: 550px;
+		background-color: black;
+	}
