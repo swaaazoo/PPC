@@ -60,29 +60,29 @@ div.wrapper {
 /*body div in 7 parts*/
 	div.body {
 		width: 930px;
-		height: 600px;
+		height: 700px;
 		background-color: black;
 		display: inline-block;
 		padding: 20px 20px;
 	}
 	div.body h1{
-		background-color: #;
+		background-color: #FFC628;
 		padding: 5px 10px;
 	}
 	div.body h2{
 		padding: 15px 20px;
 	}
-	div.body p {
+	div.about p {
 		padding-left: 20px;
 		padding-right: 30px;
 		padding-bottom: 10px;
 	}
-		div.body input {
-			display: block;
-			margin-left: 120px;
-			background-color: #FFC628;
-			font-size: 10px;
-			padding: 3px 5px;
+	div.body input {
+		display: block;
+		margin-left: 120px;
+		background-color: #FFC628;
+		font-size: 10px;
+		padding: 3px 5px;
 		}
 		div.building {
 			width: 330px;
@@ -115,16 +115,21 @@ div.wrapper {
 				display: inline-block;
 				margin-left: 30px;
 			}
-		div.automotive {
+		div.card {
 			width: 214px;
-			height: 270px;
+			height: 300px;
 			display: inline-block;
 			background-color: white;
+			margin-right: 15px;
 		}
-			.automotive img {
+			.card p {
+				padding: 15px;
+				height: 105px;
+			}
+			.card img {
 				width: 100%;
 			}
-		div.commercial {
+/*		div.commercial {
 			width: 214px;
 			height: 270px;
 			display: inline-block;
@@ -156,5 +161,5 @@ div.wrapper {
 		}
 			.diesel img {
 				width: 100%;
-			}
+			}*/
 		/*body div in 7 parts*/
